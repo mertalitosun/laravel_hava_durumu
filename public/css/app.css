@@ -1,0 +1,45 @@
+.weather-card{
+   width: 500px;
+   padding: 50px;
+   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cityName{
+    font-size: 30px;
+}
+#weather{
+    font-style: italic;
+}
+
+#weatherDegree{
+    font-size: 50px;
+}
+
+.weather-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detail-cards{
+    font-size: 13px;
+    margin: 10px 0px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detail-card-title{
+    font-weight: bold;
+}
